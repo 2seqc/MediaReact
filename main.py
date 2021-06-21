@@ -15,7 +15,7 @@ async def on_message(message):
   if message.author == client.user: # dont respond to self
     return
 
-  if message.channel.id == 856607621971836988:
+  if message.channel.id == 854013071039004692:
     if "http" in message.content or message.attachments:
       await message.add_reaction('<a:tickgreen:850803068110766120>')
       await message.add_reaction('<a:tickred:850803121491017728>')
