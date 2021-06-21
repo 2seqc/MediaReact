@@ -19,7 +19,7 @@ async def on_message(message):
     if "http" in message.content or message.attachments:
       await message.add_reaction('<a:tickgreen:850803068110766120>')
       await message.add_reaction('<a:tickred:850803121491017728>')
-    else:
-      await message.delete()
+    # else:
+    #   await message.delete()
 
 client.run(TOKEN)
